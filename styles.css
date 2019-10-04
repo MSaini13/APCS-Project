@@ -25,7 +25,7 @@ header nav ul li {
     clear: both;
 }
 
-#projects #aboutme {
+#projects, #aboutme {
     margin: 0 auto; /* cemters projects div */
     width: 90%; /* adds space on either side */
     max-width: 600px; /* keeps div from getting too wide */
@@ -37,7 +37,7 @@ header nav ul li {
     border-bottom: 1px solid rgb(0, 174, 255);
 }
 
-.project img #aboutme img {
+.project img, #aboutme img {
     width: 250px;
     float: left;
     margin-right: 10px;
